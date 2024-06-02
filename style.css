@@ -26,8 +26,8 @@ header,footer {
     background-blend-mode: color-burn;
 
     padding: 10px;
-    background-color: brown;
-    color: #f1f1f1;
+    background-color: rgb(87, 0, 99);
+    color: #ff0000;
 }
 
 main {
@@ -60,9 +60,9 @@ nav {
     flex-direction: column;
 
     border-left: solid 1px #f1f1f1;
-    background-color: #a52a2a90;
+    background-color: #3669b690;
     backdrop-filter: blur(3px);
-    color: #f1f1f1;
+    color: #d9ff00;
 
     transform: translate(180px, 0);
     transition: transform .3s linear;
@@ -104,15 +104,15 @@ nav a {
     display: block;
     width: 120px;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #1ec9c9;
     color: brown;
     transition: all .1s linear;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: brown;
-    color: #f1f1f1;
+    background-color: rgb(92, 156, 252);
+    color: #005469;
     transform: scale(1.1);
     border-radius: 5px !important;
     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
@@ -143,7 +143,7 @@ nav a:active {
 }
 
 .title {
-    color: #f1f1f1;
+    color: #003607;
     padding: 5px 0;
     padding-right: 40px;
     padding-left: 20px;
@@ -195,7 +195,7 @@ marquee img:hover {
 .game_item {
     position: relative;
 
-    background-color: brown;
+    background-color: rgb(0, 84, 87);
     border: solid 3px brown;
     border-radius: 10px;
 
@@ -227,7 +227,7 @@ marquee img:hover {
     top: 0;
     left: 0;
 
-    color: #f1f1f1;
+    color: #0400e0;
     padding: 10px;
 
     display: flex;
@@ -255,8 +255,8 @@ marquee img:hover {
     transition: all .1s linear;
     padding: 5px 20px;
     border: solid 1px #f1f1f1;
-    background-color: brown;
-    color: #f1f1f1;
+    background-color: rgb(80, 66, 66);
+    color: #7e7dc4;
     border-radius: 5px;
     width: max-content;
     align-self: center;
@@ -265,7 +265,7 @@ marquee img:hover {
 
 .game_content button:hover {
     border: solid 1px #f1f1f1;
-    background-color: #f1f1f1;
+    background-color: #1644a7ad;
     color: brown;
 }
 
